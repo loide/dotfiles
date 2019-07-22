@@ -1,0 +1,28 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Loide Mara Verdes
+	email = mara.verdes@gmail.com
+
+[alias]
+	br = branch
+	co = checkout
+	ci = commit
+	grep = grep -n
+	l = log
+
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = red
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold # line info
+	old = red # deletions
+	new = green # additions
