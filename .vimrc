@@ -27,3 +27,6 @@ set laststatus=2
 
 " Wrap text within 79 characters
 set textwidth=79
+
+" Copy indent from last line when starting a new line
+set autoindent
