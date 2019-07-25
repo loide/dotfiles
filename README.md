@@ -1,4 +1,4 @@
-# dotfiles                                                                                                                                                                                                  
+# dotfiles
 This repository serves as my way to help me setup and maintain my Mac.
 
 ----
@@ -16,3 +16,15 @@ Install this dotfiles into a new system (or migrate to this setup):
 - Checkout the actual content from the bare repository to your $HOME:
 
     `config checkout`
+
+- The step above might fail with a message like:
+>error: The following untracked working tree files would be overwritten by
+>checkout:
+
+>  .filenames
+
+> Please move or remove them before you can switch branches.
+Aborting
+
+This is because your $HOME folder might already have some stock configuration
+files which would be overwritten by Git.
