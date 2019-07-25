@@ -1,2 +1,2 @@
 # dotfiles
-.files for mac
+This repository serves as my way to help me setup and maintain my Mac.
