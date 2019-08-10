@@ -5,6 +5,14 @@ This repository serves as my way to help me setup and maintain my Mac.
 ## Initial setup
 Install this dotfiles into a new system (or migrate to this setup):
 
+Prior to the installation make sure you have committed the alias to your
+.bashrc:
+	`alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
+
+And that your source repository ignores the folder where you'll clone it, so
+that you don't create weird recursion problemas:
+	`echo "".cfg" >> .gitignore`
+
 - Clone this repository into a bare repository in a "dot" folder:
 
     `git clone --bare git@github.com:loide/dotfiles.git $HOME/.cfg`
