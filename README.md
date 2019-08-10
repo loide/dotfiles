@@ -38,3 +38,19 @@ Aborting
 
 This is because your $HOME folder might already have some stock configuration
 files which would be overwritten by Git.
+
+----
+## Update files
+
+Update the dot files in your home and then commit:
+
+`config status`
+
+`config  add <filename>`
+
+`config commit -m "Commit message"`
+
+`config push`
+
+Note: you may need to run `config push --set-upstream origin master` to set
+remote for the first push
