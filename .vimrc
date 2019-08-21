@@ -30,3 +30,9 @@ set textwidth=79
 
 " Copy indent from last line when starting a new line
 set autoindent
+
+" Teach vim to syntax highlight Vagrantfile as ruby
+augroup vagrant
+  au!
+  au BufRead,BufNewFile Vagrantfile set filetype=ruby
+augroup END
