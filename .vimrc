@@ -36,3 +36,18 @@ augroup vagrant
   au!
   au BufRead,BufNewFile Vagrantfile set filetype=ruby
 augroup END
+
+" The amount to block indent when using when using reindent operators (<< and >>)
+set shiftwidth=4
+
+" Uses shiftwidth instead of tabstop at start of lines
+set smarttab
+
+" Replaces a <TAB> with spaces -- more portable
+set expandtab
+
+" Causes backspace to delete 4 spaces = converted <TAB>
+set softtabstop=4
+
+"general settings: file type specific indenting
+filetype indent on
