@@ -1,6 +1,5 @@
 <p align="center">
   <div align="center">
-    <a href="https://travis-ci.org/loide/dotfiles"><img src="https://travis-ci.org/loide/dotfiles.svg?branch=master" /></a>
     <img src="https://img.shields.io/github/last-commit/loide/dotfiles.svg" />
     <img src="https://img.shields.io/badge/platforms-macos%20%7C%20linux-blue.svg" />
   </div>
