@@ -1,5 +1,5 @@
 <p align="center">
-  <div align="center">
+  <div align="left">
     <img src="https://img.shields.io/github/last-commit/loide/dotfiles.svg" />
     <img src="https://img.shields.io/badge/platforms-macos%20%7C%20linux-blue.svg" />
   </div>
