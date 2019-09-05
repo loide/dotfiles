@@ -1,4 +1,13 @@
-# dotfiles
+<p align="center">
+  <img src="https://assets.nickficano.com/gh-dotfiles.svg" alt="dotfiles" width="360" height="112" />
+  <div align="center">
+    <a href="https://travis-ci.org/loide/dotfiles"><img src="https://travis-ci.org/loide/dotfiles.svg?branch=master" /></a>
+    <img src="https://img.shields.io/github/last-commit/loide/dotfiles.svg" />
+    <img src="https://img.shields.io/badge/platforms-macos%20%7C%20linux-blue.svg" />
+  </div>
+</p>
+
+# loide's dotfiles
 This repository serves as my way to help me setup and maintain my Mac.
 
 ----
